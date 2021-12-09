@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+<<<<<<< HEAD
 function App() {
   
   const styles ={
@@ -8,6 +9,13 @@ function App() {
     backgroundColor: 'white '
 
   }
+=======
+function App() 
+const styles = {
+  color: 'black'
+  backgrounColor : 'white'
+}
+>>>>>>> 7ba46d7aad490cbddc80aea8306a6184ef5627be
   return (
     <div className="App">
       <header className="App-header">
@@ -23,7 +31,11 @@ function App() {
           style = {styles}
         >
           Learn React wiht Tomas Lopez 😎😂
+<<<<<<< HEAD
         </a> 
+=======
+        </a>
+>>>>>>> 7ba46d7aad490cbddc80aea8306a6184ef5627be
       </header>
     </div>
   );
