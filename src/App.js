@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App() 
+const styles = {
+  color: 'black'
+  backgrounColor : 'white'
+}
   return (
     <div className="App">
       <header className="App-header">
@@ -14,6 +18,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          style = {styles}
         >
           Learn React wiht Tomas Lopez 😎😂
         </a>
