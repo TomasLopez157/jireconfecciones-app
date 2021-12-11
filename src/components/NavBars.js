@@ -8,3 +8,5 @@ function app () {
             
             </>
 }
+
+export default NavBar;
