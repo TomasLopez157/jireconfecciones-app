@@ -1,20 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBars';
+import NavBar from './components/NavBar';
+import React from 'react';
 
 function App() {
-  
-  const styles ={
-    color: 'blue',
-    backgroundColor: 'white '
-
-  }
   return (
-    <div className="App">
- 
-    </div>
+    <React.Fragment className="app">
+       background-color: black
+      <NavBar/>
+    </React.Fragment>
   );
-}
+  }
 
 export default App;
 
