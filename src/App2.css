@@ -3,10 +3,16 @@ body{
 }
 
 .menu{
+    
     color: white;
     text-transform: uppercase;
     font-family: 'Noto Serif', serif;
     margin-right: 150px;
     margin-top: 50px;
-    text-align: center;    
+    text-align: center;  
+}
+a{
+    color: white;
+    
+    
 }

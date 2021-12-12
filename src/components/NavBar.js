@@ -3,10 +3,10 @@ import React from 'react';
 function NavBar(){
     return (
     <nav className='menu'>
-        <div>inicio</div>
-        <div >ropa</div>
-        <div >nosotros</div>
-            
+        <a href='inicio'>inicio</a>
+        <a href='ropa'>ropa</a>
+        <a href='nosotros'>nosotros</a>
+                       
     </nav>
     );
 }
