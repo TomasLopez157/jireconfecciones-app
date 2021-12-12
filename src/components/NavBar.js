@@ -2,11 +2,14 @@ import React from 'react';
 
 function NavBar(){
     return (
-    <nav>
-            <div>INICIO</div>
-            <div>NOSOTROS</div>
+    <nav className='menu'>
+        <div>inicio</div>
+        <div >ropa</div>
+        <div >nosotros</div>
+            
     </nav>
-    )
+    );
 }
+
 
 export default NavBar;
