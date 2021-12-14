@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function NavBar(){
     return (
         <header>
@@ -7,7 +8,7 @@ function NavBar(){
         <a href='inicio'>inicio</a>
         <a href='ropa'>ropa</a>
         <a href='nosotros'>nosotros</a> 
-                       
+
     </nav>
         </header>
 
