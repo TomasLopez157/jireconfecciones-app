@@ -14,5 +14,11 @@ body{
 a{
     color: white;
     
-    
+
 }
+header{
+    width: 80%;
+    background-color: black;
+    margin: 10px auto;
+    height: 20px;
+}    
