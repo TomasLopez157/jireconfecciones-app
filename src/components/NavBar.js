@@ -9,8 +9,10 @@ function NavBar(){
         <a href='ropa'>ropa</a>
         <a href='nosotros'>nosotros</a> 
 
+        <h1>JIRE CONFECCIONES</h1>
     </nav>
         </header>
+        
 
     );
 }
