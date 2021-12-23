@@ -1,19 +1,18 @@
-import React from 'react'
-
-
+import react from "react";
 
 function NavBar(){
     return (
-        <header>
+        <header className='headerNav'>
 
             <h1 className='title'>JIRE CONFECCIONES</h1>  
 
         <nav className='menu'>
 
             <a className='inicio' href='inicio'>inicio</a>
-            <a className='ropa' href='ropa'>ropa</a>
+            <a className='unixes' href='unixes'>unixes</a>
+            <a className='niños' href='niños'>niños</a>
             <a className='nosotros' href='nosotros'>nosotros</a>
-
+            
      
     </nav>
 

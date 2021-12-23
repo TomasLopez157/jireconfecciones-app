@@ -1,11 +1,15 @@
 .inicio{
     margin-right: 20px;
 }
-.ropa{
+.unixes{
     margin-right: 20px;
 }
+.niños{
+    margin-right: 20px;
+}
+
 .nosostros{
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a{
@@ -20,9 +24,9 @@ nav{
 }   
 
 .title{
-        margin-left:  510px ;
+        margin-left:  480px ;
         height: 20px;   
-        font-family: 'Noto Serif', serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
 }
 
