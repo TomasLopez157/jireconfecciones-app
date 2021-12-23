@@ -2,7 +2,8 @@
 import React from 'react';
 import './App2.css';
 import NavBar from './components/NavBar';
-import Shell from './components/Shell';
+import navBar from "./components/navBar.css"
+
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <React.Fragment className="app">
        
       <NavBar/>
-      <Shell></Shell>
+
+      
     </React.Fragment>
   );
   }

@@ -1,0 +1,20 @@
+.inicio{
+    margin-right: 20px;
+}
+.ropa{
+    margin-right: 20px;
+}
+.nosostros{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+nav{
+    width: 80%;
+    background-color: black;
+    margin: 10px auto;
+    height: 20px;
+}   
