@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
 
 class itemListConteiner extends Component{
+    componentDidMount(){
+        console.log("holas")
+    }
     render(){
         return(
-            <h1>Bienvenido a JIRE CONFECCIONES</h1>
+            <body>
+            <h2>Bienvenido a JIRE CONFECCIONES</h2>
+            </body>
         )
     }
 }
