@@ -18,3 +18,20 @@ nav{
     margin: 10px auto;
     height: 20px;
 }   
+
+.title{
+        margin-left:  525px ;
+        height: 20px;   
+        font-family: 'Noto Serif', serif;
+        color: white;
+}
+
+.cuadro{
+    width: 80%;
+    background-color: black;
+}
+
+.btnCuadro{
+    color: black;
+    margin-left: 150px;
+}
