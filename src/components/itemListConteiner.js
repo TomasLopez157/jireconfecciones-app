@@ -1,16 +1,11 @@
-import React, {Component} from 'react';
+import react from "react";
 
-class itemListConteiner extends Component{
-    componentDidMount(){
-        console.log("holas")
-    }
-    render(){
-        return(
-            <body>
-            <h2>Bienvenido a JIRE CONFECCIONES</h2>
-            </body>
-        )
-    }
+function itemListConteiner (){
+    return(
+        <nav>
+        <h1>hola</h1>
+        <button>submit</button>
+        </nav>
+    )
 }
-
 export default itemListConteiner;

@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+
 
 
 function NavBar(){
@@ -12,9 +13,10 @@ function NavBar(){
             <a className='inicio' href='inicio'>inicio</a>
             <a className='ropa' href='ropa'>ropa</a>
             <a className='nosotros' href='nosotros'>nosotros</a>
-            
+
      
     </nav>
+
 
     </header>
     );
