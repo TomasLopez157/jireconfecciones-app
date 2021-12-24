@@ -1,22 +1,21 @@
 import react from "react";
+import CartWidget from "./CartWidget1";
+ 
 
 
 function NavBar(){
     return (
-        <header className='headerNav'>
+        <header>
 
             <h1 className='title'>JIRE CONFECCIONES</h1>  
 
         <nav className='menu'>
-
             <a className='inicio' href='inicio'>inicio</a>
             <a className='unixes' href='unixes'>unixes</a>
             <a className='niños' href='niños'>niños</a>
-            <a className='nosotros' href='nosotros'>nosotros</a>
-            
-     
-    </nav>
+            <a className='nosotros' href='nosotros'>nosotros</a> 
 
+    </nav> 
 
     </header>
     );

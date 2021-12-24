@@ -29,8 +29,16 @@ nav{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
 }
+.title2{
+    margin-left:  400px ;
+    height: 20px;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(108, 109, 110);
+    
+}
 
-.ff{
-    color: brown;
-    margin-left:  480px ;
+button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50%;
+    margin-top: 5%;
 }

@@ -15,8 +15,8 @@ function App() {
       <NavBar/>
       
       <itemListConteiner>
-        <CartWidget></CartWidget>
       </itemListConteiner>
+       <CartWidget></CartWidget>
       
     </React.Fragment>
   );
