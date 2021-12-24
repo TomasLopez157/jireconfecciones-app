@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import cartWidget from './components/cartWidget';
-import NavBar from './components/NavBar';
-import tomas from './components/tomas';
+import reportWebVitals from './reportWebVitals'
+import navBar from './components/navBar.css'
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>

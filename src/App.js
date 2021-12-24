@@ -3,8 +3,8 @@ import React from 'react';
 import './App2.css';
 import NavBar from './components/NavBar';
 import navBar from './components/navBar.css';
-import cartWidget from './components/cartWidget';
-import itemListContiner from "./components/itemListConteiner";
+import itemListConteiner from './itemListCoonteiner.JS';
+import CartWidget from './components/CartWidget1';
 
 
 
@@ -13,8 +13,11 @@ function App() {
     <React.Fragment className="app">
        
       <NavBar/>
-      <cartWidget></cartWidget>
-      <itemListContiner></itemListContiner>
+      
+      <itemListConteiner>
+        <CartWidget></CartWidget>
+      </itemListConteiner>
+      
     </React.Fragment>
   );
   }
