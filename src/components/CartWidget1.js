@@ -5,7 +5,7 @@ class CartWidget extends Component{
         return(
             <>
             <h1 className="title2">Bienvenido a JIRE CONFECCIONES</h1>
-            <button typeof="submit">Tomas</button>
+            <button >Tomas</button>
 
             </>
         )
