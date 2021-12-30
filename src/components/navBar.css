@@ -24,7 +24,7 @@ nav{
 }   
 
 .title{
-        margin-left:  480px ;
+        margin-left:  500px ;
         height: 20px;   
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
@@ -33,7 +33,7 @@ nav{
     margin-left:  400px ;
     height: 20px;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(108, 109, 110);
+    color: white;
     
 }
 
@@ -41,4 +41,44 @@ button{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50%;
     margin-top: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+    body{
+        background-color: black;
+    }
+    .title{
+        margin-left:  300px ;
+        color: #ffffff;
+    }
+    .title2{
+        margin-left:  195px ;
+        color: #ffffff;
+    }
+    nav{
+        max-width: 65%;
+        width: 85%;
+        background-color: #39464d;
+        margin: 10px auto;
+        height: 20px;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color:rgb(3, 8, 34);
+    }
+    .title{
+        margin-left:  200px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title2{
+        margin-left:  220px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    nav{
+        background-color: #45697c;
+    }
 }

@@ -13,10 +13,8 @@ function App() {
     <React.Fragment className="app">
        
       <NavBar/>
-      
-      <itemListConteiner>
-      </itemListConteiner>
-       <CartWidget></CartWidget>
+      <itemListConteiner></itemListConteiner>
+      <CartWidget></CartWidget>
       
     </React.Fragment>
   );
