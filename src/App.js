@@ -4,7 +4,7 @@ import './App2.css';
 import NavBar from './components/NavBar';
 import navBar from './components/navBar.css';
 import CartWidget from './components/CartWidget1';
-import itemListConteiner from './components/itemListCoonteiner.JS';
+import itemListConteiner from './components/itemListConteiner.JS';
 
 
 
