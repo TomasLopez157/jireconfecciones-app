@@ -3,7 +3,7 @@ import React from 'react';
 import "./App2.css";
 import "./components/navBar.css";
 import NavBar from './components/NavBar';
-import Sheell from "./components/Sheell";
+import itemListConteiner from './components/itemListConteiner';
 
 
 
@@ -13,9 +13,8 @@ function App() {
   return (
     <React.Fragment className="app">
        
-      <NavBar id="hola" ejemplo="tomasitoGamer "/>
-      <Sheell ></Sheell>
-
+      <NavBar/>
+      <itemListConteiner></itemListConteiner>
     </React.Fragment>
   );
   }
