@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import carWidet from "./carWidget";
 
-class itemListConteiner extends Component {
+class ItemLisstConteiner extends Component {
 
     render(){
         return(
@@ -13,6 +13,6 @@ class itemListConteiner extends Component {
         )
     }
 }
-export default itemListConteiner;
+export default ItemLisstConteiner;
 
 
