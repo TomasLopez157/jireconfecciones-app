@@ -3,7 +3,6 @@ import React from 'react';
 import "./App2.css";
 import "./components/navBar.css";
 import NavBar from './components/NavBar';
-import itemListConteiner from './components/itemListConteiner';
 
 
 
