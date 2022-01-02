@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import carWidget from "./carWidget";
-import prueba from "./prueba";
+
 
 class ItemLisstConteiner extends Component {
 

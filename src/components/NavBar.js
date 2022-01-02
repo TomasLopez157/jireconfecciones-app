@@ -1,15 +1,15 @@
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 import carWidget from "./carWidget";
 
 
 
 
 function NavBar(){ 
-    const[Scainet1, setScainet2] = useState ("ESTADO");
+    const[Scainet1, setScainet2] = useState ("INICIO");
     const dataClick = () => {
-        setScainet2 ("ya cambiè")
-
+        setScainet2 ("ya cambie");
     }
+
 
 
 
@@ -20,7 +20,7 @@ function NavBar(){
 
         <nav className='menu' >
 
-            <a className='inicio' href='inicio' >{Scainet1}</a>
+            <a className='inicio' href='inicio'>{Scainet1}</a>
             <a className='unixes' href='unixes'>unixes</a> 
             <a className='niños' href='niños'>niños</a>
             <a className='nosotros' href='nosotros'>nosotros</a> 
