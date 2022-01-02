@@ -1,19 +1,20 @@
 import React, {Component} from "react";
 import carWidget from "./carWidget";
+import prueba from "./prueba";
 
 class ItemLisstConteiner extends Component {
 
     constructor(){
         super();
         this.state = {
-            name:"Tomas"
+            name:"Lopez"
         }
         
         
     }
 
-    handleClick = (params)=>{
-        this.setState({click:2})
+    dataClick = (params)=>{
+        this.setState({click:"Tomas"})
         console.log(this.state);
 
     }
@@ -23,7 +24,7 @@ class ItemLisstConteiner extends Component {
             <>
                 <carWidget.TitLabel text={this.state.click}></carWidget.TitLabel>
                 <carWidget.TitLabel text={this.state.name}></carWidget.TitLabel>
-                <carWidget.ButtonSubmit onClick={this.handleClick} ></carWidget.ButtonSubmit>
+                <carWidget.ButtonSubmit onClick={this.dataClick} ></carWidget.ButtonSubmit>
             </>
         )
     }
