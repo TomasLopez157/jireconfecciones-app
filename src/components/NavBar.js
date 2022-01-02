@@ -1,7 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
+import carWidget from "./carWidget";
 
 
 function NavBar(){ 
+    
+    const[scainet1]=useState("ESTADO")
+
     return (
         <header>
 
@@ -9,10 +13,14 @@ function NavBar(){
 
         <nav className='menu' >
 
-            <a className='inicio' href='inicio' >inicio</a>
+            <a className='inicio' href='inicio' >{scainet1}</a>
             <a className='unixes' href='unixes'>unixes</a> 
             <a className='niños' href='niños'>niños</a>
-            <a className='nosotros' href='nosotros'>nosotros</a>              
+            <a className='nosotros' href='nosotros'>nosotros</a> 
+            <a className='preguntas' href='preguntas'>
+                <carWidget.TitLabel text ='preguntas'></carWidget.TitLabel>
+            </a>
+                      
             
     </nav> 
 
