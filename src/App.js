@@ -4,7 +4,7 @@ import "./App2.css";
 import "./components/navBar.css";
 import NavBar from './components/NavBar';
 import ItemLisstConteiner from './components/ItemLisstConteiner';
-
+import ItemCount from "./components/ItemCount";
 
 
 
@@ -16,6 +16,7 @@ function App() {
        
       <NavBar/>
       <ItemLisstConteiner></ItemLisstConteiner>
+      <ItemCount></ItemCount>
     </React.Fragment>
   );
   }

@@ -11,6 +11,27 @@ body{
     text-align: center;  
 }
 
+.Contador{
+    width: 220px;
+    background-color: rgb(58, 55, 55);
+    margin-left: 950px;
+    margin-top: 80px;
+}
+.contador{
+    margin-left:  100px ;
+}
+.add{
+    margin-left:  50px ;
+    width: 50px;
+    color:white;
+    background-color: #00fd15;
+}
+.remove{
+    margin-left:  20px ;
+    width: 50px;
+    background-color: #fb0202;
+    color:white;
+}
 
 
  

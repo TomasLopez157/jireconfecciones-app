@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import carWidget from "./carWidget";
 
 
+
 class ItemLisstConteiner extends Component {
 
     constructor(){
@@ -9,14 +10,11 @@ class ItemLisstConteiner extends Component {
         this.state = {
             name:"Lopez"
         }
-        
-        
     }
 
     dataClick = (params)=>{
         this.setState({click:"Tomas"})
         console.log(this.state);
-
     }
 
     render(){

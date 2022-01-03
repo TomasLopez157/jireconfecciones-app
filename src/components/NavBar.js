@@ -1,5 +1,6 @@
-import React,{useEffect, useState} from "react";
+import React,{ useState} from "react";
 import carWidget from "./carWidget";
+
 
 
 
@@ -9,9 +10,6 @@ function NavBar(){
     const dataClick = () => {
         setScainet2 ("ya cambie");
     }
-
-
-
 
     return (
         <header>
@@ -27,14 +25,10 @@ function NavBar(){
             <a className='preguntas' href='preguntas'>
                 <carWidget.TitLabel text ='preguntas'></carWidget.TitLabel>
             </a>
-            <a><button onClick={dataClick}>Click me</button></a>
-                      
-            
+           <div><button onClick={dataClick}>click me</button></div>
+               
     </nav> 
-
-
     </header>
-
     );
 }
 
