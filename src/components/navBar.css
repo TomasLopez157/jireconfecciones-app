@@ -44,6 +44,9 @@ button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #646468;
 }
+.h1Products{
+    text-align: center;
+}
 
 h3{
     color: white;

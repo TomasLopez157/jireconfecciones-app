@@ -1,4 +1,4 @@
-import carrito from "./ftl/img/carrito.jpg"
+import carrito from "./ftl/img/Carrito3.jpg"
 
 const carWidget= {
     ButtonSubmit : (props)=>(<button className="btnCarrito" onClick={props.onClick}><img className="imgCarrito" src={carrito} alt="imgCarrito"/></button>),
