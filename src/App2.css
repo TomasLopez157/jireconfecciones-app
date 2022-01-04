@@ -33,10 +33,9 @@ body{
     color:white;
 }
 .imgCarrito{
-    width: 50px;
-    height: 45px;
-
+    width: 72px;
+    height: 50px;
 }
-
-
- 
+.btnCarrito{
+    background-color: white;
+} 

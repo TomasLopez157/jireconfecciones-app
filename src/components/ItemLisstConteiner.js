@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import carWidget from "./carWidget";
-import carrito from "./ftl/img/carrito.jpg"
+
 class ItemLisstConteiner extends Component {
 
     constructor(){
