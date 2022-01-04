@@ -1,14 +1,17 @@
 import React, {useState} from "react";
 
+function ItemCount (){
 
-function ItemCount ({stock, initial, onAdd}){
     const [number, setnumber] = useState(0);
+
     const add = ()=>{
-        setnumber(number + 0);
+        setnumber(number + 1);
     };
+
     const remove = ()=> {
-        number === 0 ? setnumber(0) : setnumber(number -0);
+        number === 0 ? setnumber(0) : setnumber(number -1);
     };
+
     return(
         <div className="Contador">
             <h1 className="contador">{number}</h1>
@@ -17,4 +20,5 @@ function ItemCount ({stock, initial, onAdd}){
         </div>
     );
 }
+
 export default ItemCount;

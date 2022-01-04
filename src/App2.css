@@ -14,7 +14,7 @@ body{
 .Contador{
     width: 220px;
     background-color: rgb(58, 55, 55);
-    margin-left: 950px;
+    margin-left: 95px;
     margin-top: 80px;
 }
 .contador{
@@ -31,6 +31,11 @@ body{
     width: 50px;
     background-color: #fb0202;
     color:white;
+}
+.imgCarrito{
+    width: 50px;
+    height: 45px;
+
 }
 
 

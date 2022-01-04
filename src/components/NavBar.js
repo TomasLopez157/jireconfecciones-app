@@ -1,16 +1,11 @@
 import React,{ useState} from "react";
 import carWidget from "./carWidget";
 
-
-
-
-
 function NavBar(){ 
     const[Scainet1, setScainet2] = useState ("INICIO");
     const dataClick = () => {
         setScainet2 ("ya cambie");
     }
-
     return (
         <header>
 
