@@ -1,16 +1,16 @@
 import React, {useState} from "react";
 
-function ItemCount(){
+function ItemCount({initial , stock }){
 
-    const [number, setnumber] = useState(0);
+    const [number, setNumber] = useState(initial);
 
     const add = ()=>{
-        if( number < 10 ) setnumber(number + 1);
+       if (number < stock) setNumber(number + 1);
         
     };
 
     const remove = ()=> {
-        number === 0 ? setnumber(0) : setnumber(number -1);
+        number === 0 ? setNumber(0) : setNumber(number -1);
     };
 
     return(
