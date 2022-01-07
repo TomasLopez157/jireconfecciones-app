@@ -1,13 +1,11 @@
+const Item  = (Item)=> {
+    return(
+            <div>
+                <h1>{Item.name}</h1>
+                <h2>{Item.lastName}</h2>
+                <h3>{Item.age}</h3>
+            </div>
+    )
+}
 
-//const Item= {
-//    arr: (prueba)=> <h2>
-//        <h3>{prueba.nombre}</h3>
-//        <h3>{prueba.apellido}</h3>
-//        <h3>{prueba.edad}</h3>
-//    </h2>
-//
-//
-//
-//}
-//
-//export default Item;
+export default Item;
