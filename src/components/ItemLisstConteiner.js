@@ -2,22 +2,24 @@ import React, {Component} from "react";
 import carWidget from "./carWidget";
 
 
-
 class ItemLisstConteiner extends Component {
 
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
-            name:"Lopez"
+            name:"Lopez", 
+
         }
+ 
     }
-
-    dataClick = (params)=>{
-        this.setState({click:"Tomas"})
-        console.log(this.state);
-    }
-
+    
+        dataClick = (params)=>{
+            this.setState({click:"Tomas"})
+            console.log(this.state);
+        }
+   
     render(){
+
         return(
             <>
                 <carWidget.TitLabel text={this.state.click}></carWidget.TitLabel>

@@ -22,5 +22,4 @@ function ItemCount({initial , stock }){
         </div>
     );
 }
-
 export default ItemCount;
