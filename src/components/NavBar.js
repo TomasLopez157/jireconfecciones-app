@@ -1,5 +1,7 @@
 import React,{ useState} from "react";
 import carWidget from "./carWidget";
+import ItemLisstConteiner from "./ItemLisstConteiner";
+
 
 
 function NavBar(){ 
@@ -25,12 +27,7 @@ function NavBar(){
                 <carWidget.TitLabel text ='preguntas'></carWidget.TitLabel>
             </a>
            <div><button onClick={dataClick}>click me</button></div>
-           
-           
-
-           
-               
-    </nav> 
+    </nav>
     </header>
     );
 }

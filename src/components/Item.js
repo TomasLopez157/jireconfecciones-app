@@ -1,11 +1,13 @@
-const Item  = (Item)=> {
-    return(
-            <div>
-                <h1>{Item.name}</h1>
-                <h2>{Item.lastName}</h2>
-                <h3>{Item.age}</h3>
-            </div>
-    )
-}
+import React from "react";
 
-export default Item;
+const Item = ({tomas}) => {
+  return (
+        <h3>
+            <img src={tomas.img} alt="profile-image" />
+            <h2>{tomas.nombre}</h2>
+            <h2 >{tomas.lastName}</h2>
+        </h3>
+  );
+};
+
+export default  Item;
