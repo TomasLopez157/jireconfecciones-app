@@ -9,32 +9,34 @@ function ItemLisstConteiner(props) {
      const dataClick = (props) =>{
         setState("TOMAS"); }
 
-        const data =([
-            {id : 1 , nombre : "will", lastName : "Robinsin", img:"https://m.media-amazon.com/images/I/61SA1kQNPbL._AC_SX679_.jpg"} ,
+    const datos =([
+        {id : 1 , nombre : "will", lastName : "Robinsin", img:"https://m.media-amazon.com/images/I/61SA1kQNPbL._AC_SX679_.jpg"} ,
 
-            {id : 2 , nombre : "Peni", lastName : "Robinsin", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2bCJrKXkZSLy5afNVRCxhtwQzfjel1G5Cg4ahY2u55iWWgazAiKkaoNSM9LCqiAljuE&usqp=CAU"},
+        {id : 2 , nombre : "Peni", lastName : "Robinsin", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2bCJrKXkZSLy5afNVRCxhtwQzfjel1G5Cg4ahY2u55iWWgazAiKkaoNSM9LCqiAljuE&usqp=CAU"},
 
-            {id : 3, nombre : "Ben", lastName : "Adler", img: "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSzd3Bg3Xe-Ho5EgwzKNnH9RqcKtymvkh0JhQuQbtOwhRndg7WGEPHoMdL343LU"},])
+        {id : 3, nombre : "Ben", lastName : "Adler", img: "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSzd3Bg3Xe-Ho5EgwzKNnH9RqcKtymvkh0JhQuQbtOwhRndg7WGEPHoMdL343LU"},])
 
-            const getData = () =>{
-                return new Promise((resolve, reject)=>{
-                    setTimeout(()=>{
-                        resolve(data);
-              },2000);
-          });
-    }
-        getData().then((data)=> {
-            return data;
+    const getData = () =>{
+        return new Promise((resolve, reject)=>{
+            setTimeout(()=>{
+                resolve(datos);
+        },2000);
+    });
+}
+    getData().then((datos)=> {
+            return datos;
         });
 
 
         return(
-            <>  
-               <ItemList tomas={ItemList}/>
-               <h3 >{state}</h3>
-               <div>
+
+            <>
+
+            <ItemList tomas={ItemList}/>
+            <h3 className="h3">{state}</h3>
+            <div>
                 <button onClick={dataClick}><img className="imgCarrito" src={carrito} alt="imgCarrito"/></button>
-                </div>
+            </div>
             </>
         )
 
