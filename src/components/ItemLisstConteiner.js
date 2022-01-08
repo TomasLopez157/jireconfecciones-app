@@ -1,50 +1,42 @@
-import React, {Component} from "react";
-import carWidget from "./carWidget";
+import React, {useState} from "react";
 import ItemList from "./ItemList";
-import Item from "./Item";
+import carrito from "./ftl/img/Carrito3.jpg"
 
 
-class ItemLisstConteiner extends Component {
-    
 
-    constructor(props){
-        super(props);
-        this.state = {
-            name:"Lopez",
-        }
+function ItemLisstConteiner(props) {
+    const [state, setState] = useState("LOPEZ")
+     const dataClick = (props) =>{
+        setState("TOMAS"); }
+
         const data =([
-        
             {id : 1 , nombre : "will", lastName : "Robinsin", img:"https://m.media-amazon.com/images/I/61SA1kQNPbL._AC_SX679_.jpg"} ,
 
             {id : 2 , nombre : "Peni", lastName : "Robinsin", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2bCJrKXkZSLy5afNVRCxhtwQzfjel1G5Cg4ahY2u55iWWgazAiKkaoNSM9LCqiAljuE&usqp=CAU"},
 
             {id : 3, nombre : "Ben", lastName : "Adler", img: "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSzd3Bg3Xe-Ho5EgwzKNnH9RqcKtymvkh0JhQuQbtOwhRndg7WGEPHoMdL343LU"},])
 
-            const getItems = () =>{
+            const getData = () =>{
                 return new Promise((resolve, reject)=>{
                     setTimeout(()=>{
                         resolve(data);
               },2000);
           });
     }
-        getItems().then((data)=> console.log(data));
-        }
-    dataClick = (params)=>{
-        this.setState({click:"Tomas"})
-        console.log(this.state);
-        }
-    render(){
-        
+        getData().then((data)=> {
+            return data;
+        });
+
+
         return(
-            <>      
-                 
-                <ItemList tomas={ItemList}/>
-                <carWidget.TitLabel text={this.state.click}></carWidget.TitLabel>
-               <carWidget.TitLabel text={this.state.name}></carWidget.TitLabel>
-                <carWidget.ButtonSubmit onClick={this.dataClick} ></carWidget.ButtonSubmit>
-                
+            <>  
+               <ItemList tomas={ItemList}/>
+               <h3 >{state}</h3>
+               <div>
+                <button onClick={dataClick}><img className="imgCarrito" src={carrito} alt="imgCarrito"/></button>
+                </div>
             </>
         )
-    }
+
 }
 export default ItemLisstConteiner; 

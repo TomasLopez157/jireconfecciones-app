@@ -5,7 +5,7 @@ const ItemList = ({tomas}) =>{
     return (
         <div>
             {tomas.map((tomas)=>{
-            return <h2><Item key={tomas.id} img={tomas.img} nombre={tomas.name} lastName={tomas.lastName}/></h2>
+            return <Item key={tomas.id} img={tomas.img} nombre={tomas.name} lastName={tomas.lastName}/>
             }
             )}
             </div>

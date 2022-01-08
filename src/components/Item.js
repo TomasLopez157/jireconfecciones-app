@@ -1,7 +1,7 @@
 const Item = ({tomas}) => {
   return (
         <h3>
-            <img src={tomas.img} alt="profile-image" />
+            <img src={tomas.img}  />
             <h2>{tomas.nombre}</h2>
             <h2 >{tomas.lastName}</h2>
         </h3>
