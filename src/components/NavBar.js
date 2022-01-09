@@ -7,6 +7,7 @@ function NavBar(){
     const dataClick = () => {
         setScainet2 ("ya cambie");
     }
+    
 
     return ( 
         

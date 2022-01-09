@@ -4,11 +4,14 @@ const ItemList = ({tomas}) =>{
 
     return (
         <div>
-            {tomas.map((tomas)=>{
-            return <Item key={tomas.id} img={tomas.img} nombre={tomas.name} lastName={tomas.lastName}/>
+            {tomas.map((tomas, indice)=>{
+            return <Item key={indice} tomas={tomas}/>
             }
             )}
             </div>
+            
     )
 }
+
+
 export default ItemList;

@@ -15,8 +15,8 @@ body{
     width: 300px;
     height: 175px;
     background-color: rgb(58, 55, 55);
-    margin-left: 205px;
-    margin-top: 80px;
+    margin-left: 500px;
+    margin-top: -15%;
 }
 .contador{
     margin-left:  145px ;
@@ -41,3 +41,18 @@ body{
     background-color: rgb(1, 12, 41);
     width: 85px;
 } 
+.productos1{
+    width: 300px;
+    background-color: rgb(10, 10, 10);
+    margin-left: 50px;
+    margin-top: 10%;
+}
+.itemss{
+    margin-left: 10px;
+    color: white;
+}
+.imgProductos{
+    margin-top: 1%;
+    width: 150px;
+    margin-left: 70px;
+}

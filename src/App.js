@@ -13,7 +13,7 @@ import Item from './components/Item';
 function App() {
 
   return (
-    <React.Fragment className="app">
+    <React.Fragment >
       <NavBar/>
       <ItemLisstConteiner >
       <ItemList>

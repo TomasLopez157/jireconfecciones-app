@@ -1,11 +1,16 @@
 const Item = ({tomas}) => {
   return (
-        <h3 className="h3">
-            <img src={tomas.img}  />
-            <h2>{tomas.nombre}</h2>
-            <h2>{tomas.lastName}</h2>
+        <h3 className="productos1">
+            <h2 className="itemss">{tomas.nombre}</h2> 
+            <h2 className="itemss">{tomas.descripcion}</h2>
+            <h2 className="itemss">{tomas.precio}</h2>
+            <img className="imgProductos" src="https://www.casaespadas.com/post/2016-08-remera-manga-rangla-2.jpg" alt="RMR"/>
+
         </h3>
+
   );
-};
+  
+}
+
 
 export default  Item;
