@@ -16,7 +16,7 @@ body{
     height: 175px;
     background-color: rgb(58, 55, 55);
     margin-left: 500px;
-    margin-top: -15%;
+    margin-top: -35%;
 }
 .contador{
     margin-left:  145px ;
@@ -38,13 +38,21 @@ body{
     height: 55px;
 }
 .btnCarrito{
-    background-color: rgb(1, 12, 41);
+    background-color: rgb(8, 44, 144);
     width: 85px;
+    margin-left: 55%;
+    
+}
+.state{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 55%;
+    margin-top:-5%;
 } 
 .productos1{
     width: 300px;
     background-color: rgb(10, 10, 10);
-    margin-left: 50px;
+    margin-left: 55px;
     margin-top: 10%;
 }
 .itemss{
@@ -55,4 +63,14 @@ body{
     margin-top: 1%;
     width: 150px;
     margin-left: 70px;
+}
+.api{
+    width: 400px;
+    background-color: rgb(10, 10, 10);
+    margin-top: 350px;
+    margin-left: 50px;
+    text-align: center;
+}
+.ttile{
+    color: white;
 }

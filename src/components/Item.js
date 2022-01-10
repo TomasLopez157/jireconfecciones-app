@@ -7,9 +7,9 @@ const Item = ({tomas}) => {
             <img className="imgProductos" src="https://www.casaespadas.com/post/2016-08-remera-manga-rangla-2.jpg" alt="RMR"/>
 
         </h3>
+        
 
   );
-  
 }
 
 
