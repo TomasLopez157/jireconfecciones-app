@@ -1,33 +1,23 @@
-import React,{ useState} from "react";
-import carWidget from "./carWidget";
-
-
+import React from "react";
+import {NavLink} from "react-router-dom"
 
 function NavBar(){ 
-    const[Scainet1, setScainet2] = useState ("INICIO");
-    const dataClick = () => {
-        setScainet2 ("ya cambie");
-    }
-    
-
     return ( 
-        
         <header>
 
             <h1 className='title'>JIRE CONFECCIONES</h1> 
             
         <nav className='menu' >
-
-            <a className='inicio' href='inicio'>{Scainet1}</a>
-            <a className='unixes' href='unixes'>unixes</a> 
-            <a className='niños' href='niños'>niños</a>
-            <a className='nosotros' href='nosotros'>nosotros</a> 
-            <a className='preguntas' href='preguntas'>
-                <carWidget.TitLabel text ='preguntas'></carWidget.TitLabel>
-            </a>
-           <div><button onClick={dataClick}>click me</button></div>
-           
+            
+            <NavLink className='inicio' to={"/"}>/</NavLink>
+            <a className='remeras' href='category/:id'>category/:id</a> 
+            <a className='niños' href='Item/:id'>item/:id</a>
+            <a className='nosotros' href='nosotros'>nosotros</a>
     </nav>
+
+        <h1 className="title2">BIENVENIDO A JIRE CONFECCIONES</h1>
+        <h1 className="title2">TIENDA ONLINE DE ROPA UNIXES PARA GRANDES Y NIÑOS</h1>
+
     </header>
     );
 }
