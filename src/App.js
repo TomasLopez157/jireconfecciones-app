@@ -19,7 +19,7 @@ function App() {
     <Routes>
       <Route exact path="/a" element={<ItemLisstConteiner/>}></Route>
       <Route exact path="/category/:id" element={<ItemLisstConteiner/>}></Route>
-      <Route exact path="/Item/:id" element={<ItemDetailConteiner><ItemDetail></ItemDetail></ItemDetailConteiner>}></Route>
+      <Route exact path="/Item/:id" element={<ItemDetailConteiner></ItemDetailConteiner>}></Route>
       <Route exact path="/productos" element={<productos>
         <img className='imgProductos2' src='https://www.casaespadas.com/post/2016-08-remera-manga-rangla-2.jpg' alt='img1'/>
         <img className='imgProductos3' src="https://d2r9epyceweg5n.cloudfront.net/stores/871/662/products/rangla-ml21-dc826959deea4a36ea16294618761978-480-0.jpg" alt="img2"/>
