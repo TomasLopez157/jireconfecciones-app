@@ -41,7 +41,7 @@ body{
     background-color: rgb(8, 44, 144);
     width: 85px;
     margin-left: 55%;
-    
+
 }
 .state{
     color: white;
@@ -64,6 +64,15 @@ body{
     width: 150px;
     margin-left: 70px;
 }
+.imgProductos2{
+    width: 350px;
+    margin-left: 70px;
+}
+.imgProductos3{
+    width: 355px;
+    height: 350px;
+    margin-left: 70px;
+}
 .api{
     width: 400px;
     background-color: rgb(10, 10, 10);
@@ -73,4 +82,7 @@ body{
 }
 .ttile{
     color: white;
+}
+id2{
+    margin-left: 80px;
 }

@@ -1,15 +1,13 @@
 import {useState, useEffect} from "react";
 
-
 const ItemDetailConteiner = (props) => {
-
 
     const [ items, setItems] = useState([]);
 
     useEffect(()=>{
-        console.log("me monte");
         setTimeout(()=>{
             db();
+            console.log()
         },2000)
         
     },[]);
@@ -36,10 +34,8 @@ const ItemDetailConteiner = (props) => {
                 </div>
             ))}
         </div>
-        
-        
+    
     )
     
-
 }
 export default ItemDetailConteiner;
