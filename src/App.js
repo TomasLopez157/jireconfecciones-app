@@ -5,7 +5,7 @@ import "./components/navBar.css";
 import NavBar from "./components/NavBar";
 import ItemLisstConteiner from "./components/ItemLisstConteiner";
 import ItemDetailConteiner from "./components/ItemDetailConteiner";
-import ItemDetail from './components/ItemDetail';
+
 
 
  
