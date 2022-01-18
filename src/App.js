@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
     <NavBar/>
     <Routes>
-      <Route exact path="/a" element={<ItemLisstConteiner/>}></Route>
+      <Route exact path="/a" element={<ItemLisstConteiner></ItemLisstConteiner>}></Route>
       <Route exact path="/category/:id" element={<ItemLisstConteiner/>}></Route>
       <Route exact path="/Item/:id" element={<ItemDetailConteiner></ItemDetailConteiner>}></Route>
       <Route exact path="/productos" element={<productos>

@@ -1,4 +1,4 @@
-const productos = (productus) => {
+const productos = () => {
     return(
         <div>
             
